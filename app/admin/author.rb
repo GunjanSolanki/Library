@@ -21,7 +21,7 @@ ActiveAdmin.register Author do
     f.inputs do
       f.input :first_name
       f.input :last_name
-      label 'Date Of Birth'
+      label t('author.dob')
       f.date_field :date_of_birth
     end
     f.actions
