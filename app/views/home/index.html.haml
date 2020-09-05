@@ -1,0 +1,13 @@
+- if user_signed_in?
+  %h1
+    = t('welcome')
+    = current_user.name
+  %br/
+  %p= link_to t('sign_out'), destroy_user_session_path, method: :delete
+  %br/
+- else
+  %h1= t('welcome')
+  %br/
+  %p
+    = link_to t('sign_in'), new_user_session_path
+    %br/
