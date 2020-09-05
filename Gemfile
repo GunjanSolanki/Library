@@ -34,6 +34,8 @@ gem 'devise'
 gem "haml-rails", "~> 2.0"
 # gem active:admin
 gem 'activeadmin', github: 'gregbell/active_admin'
+# gem serializer
+gem 'active_model_serializers'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
