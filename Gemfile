@@ -30,9 +30,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 #gem devise
 gem 'devise'
-
 #gem haml 
 gem "haml-rails", "~> 2.0"
+# gem active:admin
+gem 'activeadmin', github: 'gregbell/active_admin'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
