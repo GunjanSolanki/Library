@@ -3,4 +3,6 @@ en:
   welcome: Welcome To Library
   author: 
     dob: Date Of Birth
+  error:
+    not_found: '%{entity} not found'
 
